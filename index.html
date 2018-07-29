@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Evaluacion parcial</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/kickstart.js"></script>
+    <!-- KICKSTART -->
+    <link rel="stylesheet" href="css/kickstart.css" media="all" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="css/evaluacion.css" />
+</head>
+
+<body onload="openContent(event, 'SistemaSolar')">
+    <header class="w3-container">
+        <h1>EL SISTEMA SOLAR</h1>
+    </header>
+    <nav>
+
+    </nav>
+    <section>
+
+        <div class="sunDiv w3-container">
+            <figure>
+                <img id="sun" src="imas/sun.png" alt="Sun" />
+            </figure>
+        </div>
+
+        <div class="planetJupiter w3-container">
+            <figure>
+                <img id="jupiter" src="imas/jupiter.png" alt="Jupiter" />
+            </figure>
+        </div>
+
+        <img id="mars" src="imas/mars.png" alt="mars" />
+
+        <div class="planetPluton w3-container">
+            <figure>
+                <img id="pluton" src="imas/pluton.png" alt="Pluton" />
+            </figure>
+        </div>
+        <div class="planetNeptune w3-container">
+            <figure>
+                <img id="neptune" src="imas/neptune.png" alt="Neptune" />
+            </figure>
+        </div>
+        <div class="planetEarth w3-container">
+            <figure>
+                <img id="earth" src="imas/earth.png" alt="earth" />
+            </figure>
+
+        </div>
+
+
+    </section>
+    <article class="w3-container">
+        <div class="col_9 info w3-container">
+            <div class="tab">
+                <button class="tablinks" onclick="openContent(event, 'SistemaSolar')">
+                    SISTEMA SOLAR
+                </button>
+                <button class="tablinks" onclick="openContent(event, 'Sol')">
+                    EL SOL
+                </button>
+            </div>
+            <div id="SistemaSolar" class="tabcontent">
+                <h1>
+                    EL SISTEMA SOLAR
+                </h1>
+                <p>
+                    El sistema solar es el sistema planetario en el que se encuentran la Tierra y otros objetos astron&oacute;micos que giran
+                    directa o indirectamente en una &oacute;rbita alrededor de una &uacute;nica estrella conocida como el
+                    Sol.
+                </p>
+
+                <p>
+                    La estrella concentra el 99,75 % de la masa del sistema solar, y la mayor parte de la masa restante se concentra en ocho
+                    planetas cuyas &oacute;rbitas son pr&aacute;cticamente circulares y transitan dentro de un disco casi
+                    llano llamado plano ecl&eacute;ptico. Los cuatro planetas m&aacute;s cercanos, considerablemente m&aacute;s
+                    peque&nacute;os Mercurio, Venus, Tierra y Marte, tambi&eacute;n conocidos como los planetas terrestres,
+                    est&aacute;n compuestos principalmente por roca y metal. Mientras que los cuatro m&aacute;s alejados,
+                    denominados gigantes gaseosos o "planetas jovianos", m&aacute;s masivos que los terrestres, est&aacute;n
+                    compuesto de hielo y gases. Los dos m&aacute;s grandes, J&uacute;piter y Saturno, est&aacute;n compuestos
+                    principalmente de helio e hidr&oacute;geno. Urano y Neptuno, denominados los gigantes helados, est&aacute;n
+                    formados mayoritariamente por agua congelada, amoniaco y metano.
+                </p>
+
+            </div>
+            <div id="Sol" class="tabcontent">
+                <h1>
+                    EL SOL
+                </h1>
+                <p>
+                    El Sol es el &uacute;nico cuerpo celeste del sistema solar que emite luz propia, debido a la fusi&oacute;n termonuclear del
+                    hidr&oacute;geno y su transformaci&oacute;n en helio en su n&uacute;cleo. El sistema solar se form&oacute;
+                    hace unos 4600 millones de a&nacute;os a partir del colapso de una nube molecular. El material residual
+                    origin&oacute; un disco circunestelar protoplanetario en el que ocurrieron los procesos f&iacute;sicos
+                    que llevaron a la formaci&oacute;n de los planetas. El sistema solar se ubica en la actualidad en la
+                    nube Interestelar Local que se halla en la Burbuja Local del brazo de Ori&oacute;n, de la galaxia espiral
+                    V&iacute;a L&aacute;ctea, a unos 28 000 a&nacute;os luz del centro de esta. El sistema solar es tambi&eacute;n
+                    el hogar de varias regiones compuestas por objetos peque&nacute;os. El cintur&oacute;n de asteroides,
+                    ubicado entre Marte y J&uacute;piter, es similar a los planetas terrestres ya que est&aacute; constituido
+                    principalmente por roca y metal. En este cintur&oacute;n se encuentra el planeta enano Ceres. M&aacute;s
+                    all&aacute; de la &oacute;rbita de Neptuno est&aacute;n el cintur&oacute;n de Kuiper, el disco disperso
+                    y la nube de Oort, que incluyen objetos transneptunianos formados por agua, amon&iacute;aco y metano
+                    principalmente.
+                </p>
+            </div>
+        </div>
+
+        <div class="col_3 info">
+            <div class="containerLogos" onclick="window.location = 'https://www.nasa.gov/';">
+                <img id="logoNasa" src="imas/nasa.png" alt="NASA" />
+            </div>
+            <div class="containerLogos" onclick="window.location = 'http://www.estacionespacial.com/';">
+                <img id="logoEstacion" src="imas/estacion espacial.png" alt="Estacion Espacial Internacional" />
+            </div>
+            <div class="containerLogos" onclick="window.location = 'https://voyager.jpl.nasa.gov/mission/';">
+                <img id="logoVoyager" src="imas/voyager.png" alt="Mision Voyager" />
+            </div>
+        </div>
+
+    </article>
+
+    <footer class="w3-container">
+        <p>
+            Julio Alan Fernando Vidaurre Farf&aacute;n - 1704002004
+        </p>
+
+        <h5>PROGRAMACION VII - 2018</h5>
+
+        <img src="imas/logoudeo.png" alt="Universidad de Occidente"/>
+    </footer>
+
+</body>
+
+<script>
+    function openContent(evt, topicName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(topicName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+</script>
+
+</html>
